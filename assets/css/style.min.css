@@ -15,6 +15,85 @@ body {
   background: #050505;
   font-family: "Grandstander", sans-serif;
 }
+.bounce {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s linear;
+  -o-animation: bounce 0.5s linear;
+  -webkit-animation: bounce 0.5s linear;
+  animation: bounce 0.5s linear;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-moz-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-o-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+@-ms-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
 
 .raydium {
 }
