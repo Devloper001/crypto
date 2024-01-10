@@ -15,6 +15,9 @@ body {
   background: #050505;
   font-family: "Grandstander", sans-serif;
 }
+
+.raydium {
+}
 .container {
   max-width: 1276px;
   padding: 0 15px;
@@ -22,13 +25,26 @@ body {
   width: 100%;
 }
 header {
-  margin-top: 45px;
+  margin-top: 6px;
 }
 header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   grid-gap: 20px;
+  margin-top: -69px;
+}
+
+#main-img {
+  margin-top: 42px;
+  margin-left: 57px;
+  width: 229px;
+}
+
+.raydium {
+  width: 500px;
+  margin-bottom: 150px;
+  height: auto;
 }
 header .mobile-btn {
   display: none;
@@ -65,7 +81,8 @@ header .header__logo:hover {
   transition: 0.3s all;
 }
 header .header__logo img {
-  width: 246px;
+  width: 227px;
+  margin-top: -189px;
 }
 header .header__links {
   display: flex;
@@ -86,6 +103,7 @@ header .header__links .social__links {
   }
   header .header__links .social__links a img {
     width: 54px;
+    margin-top: -189px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -182,6 +200,7 @@ section.intro .container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: -200px;
 }
 section.intro h2 {
   color: var(--f-8-f-7-ff, #f8f6ff);
@@ -317,6 +336,7 @@ section.link_swip .links__link.border:hover {
 }
 section.about {
   margin-bottom: 245px;
+  margin-top: -10px;
 }
 @media screen and (max-width: 500px) {
   section.about {
@@ -609,6 +629,7 @@ section.base2 .base2__content .content__title {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: -508px;
 }
 #MAYAN_SWAP_PV_ROOT {
   height: 450px;
@@ -899,6 +920,7 @@ section.social .container {
   justify-content: space-between;
   position: relative;
   grid-gap: 20px;
+  margin-top: -229px;
 }
 @media screen and (max-width: 500px) {
   section.social .container {
@@ -918,6 +940,7 @@ section.social .social__content .content__title {
   font-weight: 700;
   line-height: normal;
   margin-bottom: 32px;
+  margin-top: 94px;
 }
 @media screen and (max-width: 500px) {
   section.social .social__content .content__title {
